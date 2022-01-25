@@ -1,0 +1,305 @@
+body {
+  max-width: 775px;
+  max-height: 870px;
+  background: black;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+/*###---Header---##################################*/
+
+#header_container {
+  display: flex;
+  flex-direction: column;
+  background: rgba(243, 142, 88, 1);
+}
+#header_mainbar {
+  display: flex;
+  justify-content: space-between;
+}
+#logo_lander {
+  height: 2.8rem;
+  width: 6.2rem;
+  margin-left: 3rem;
+  margin-top: 0.03rem;
+}
+
+#navbar {
+  padding-left: 0.5rem;
+  margin-top: 0.8rem;
+}
+#navbar li {
+  display: inline-block;
+  width: 4rem;
+  text-align: center;
+  margin-left: 0rem;
+  margin-right: 0.1rem;
+}
+.nav_href a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.55rem;
+}
+#connexion {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 3.5rem;
+}
+#trial {
+  margin-top: 0.8rem;
+  margin-right: 0.3rem;
+  background: rgb(3, 32, 48);
+  border: transparent solid 1px;
+  border-radius: 0.3rem;
+  height: 1.6rem;
+  width: 6.2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 0.45rem;
+}
+#login {
+  margin-top: 0.8rem;
+  background: rgba(243, 142, 88, 1);
+  border: white 1px solid;
+  border-radius: 0.3rem;
+  height: 1.6rem;
+  width: 4rem;
+  color: white;
+  text-decoration: none;
+  font-size: 0.45rem;
+}
+
+#title_main {
+  margin-top: 3.35rem;
+  text-align: center;
+}
+#title {
+  color: white;
+  font-size: 2.3rem;
+  height: 1.73rem;
+  font-weight: 900;
+}
+#sec_title {
+  margin-top: 0rem;
+  margin-bottom: 3.1rem;
+  font-size: 0.6rem;
+}
+
+/*###---Body---##################################*/
+
+#main_container {
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 1.55rem;
+  padding-bottom: 1.9rem;
+}
+
+#reach_team {
+  display: flex;
+  flex-direction: row;
+}
+#form_connect {
+  display: flex;
+  flex-direction: row;
+}
+
+#reach_us {
+  flex: 2;
+}
+
+#formulaire {
+  flex: 2;
+  margin-bottom: 0.85rem;
+  margin-top: 0.6rem;
+}
+#team {
+  flex: 2;
+  margin-left: 1.5rem;
+}
+
+.infos {
+  width: 94%;
+  height: 1.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.8rem;
+  font-size: 0.7rem;
+  border: 0.08rem solid rgb(221, 221, 221);
+  border-radius: 0.3rem;
+}
+::placeholder {
+  color: rgb(221, 221, 221);
+}
+#txt {
+  padding-top: 0.4rem;
+  height: 5rem;
+  resize: none;
+}
+
+#div_btn_submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#submit_btn {
+  margin-top: 0.3rem;
+  background: rgb(243, 142, 88);
+  color: white;
+  border: white 2px solid;
+  border-radius: 0.3rem;
+  height: 2.6rem;
+  width: 5.8rem;
+  color: white;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
+.third_title {
+  color: rgb(85, 182, 226);
+  font-weight: 900;
+  margin-bottom: 0.9rem;
+}
+.social_link {
+  color: rgb(218, 158, 132);
+  text-decoration: none;
+}
+
+#conntections {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+.logo_connection {
+  height: 2.6rem;
+  width: 2.6rem;
+  margin-right: 0.7rem;
+}
+#facebook {
+  display: flex;
+  flex-direction: row;
+}
+.para_facebook {
+  margin-top: 0rem;
+}
+#twitter {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.4rem;
+}
+.para_twitter {
+  margin-top: 0rem;
+}
+#linkedin {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.4rem;
+}
+.para_linkedin {
+  margin-top: 0rem;
+}
+
+/*###---Footer---##################################*/
+
+footer {
+  background: rgba(64, 64, 64, 1);
+  display: flex;
+  flex-direction: row;
+  font-size: 0.5rem;
+  line-height: 1.6;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
+.footer_title {
+  color: rgba(253, 253, 253, 1);
+  margin-top: 1rem;
+}
+.footer_list {
+  list-style-type: none;
+}
+.footer_hrefs {
+  color: rgba(172, 172, 172, 1);
+  text-decoration: none;
+}
+.footer_titles {
+  color: white;
+}
+
+#sec_footer {
+  background: rgba(51, 51, 51, 1);
+  padding: 0rem;
+  line-height: 1.5;
+}
+#sec_footer_container {
+  padding-left: 2.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.para_sec_footer {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+#create_landing_page_btn {
+  background: rgb(3, 32, 48);
+  color: white;
+  border: transparent 1px solid;
+  border-radius: 0.3rem;
+  width: 7.5rem;
+  height: 2.35rem;
+  font-size: 0.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+}
+
+#split_com-tuned {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#stay_tuned {
+  display: flex;
+  flex-direction: column;
+}
+.img_social {
+  width: 0.82rem;
+  height: 0.82rem;
+  margin-right: 0.1rem;
+  margin-top: 0.2rem;
+}
+#ref_fb {
+  margin-left: -0.2rem;
+}
+#footer_tuned_links {
+  padding-left: 0rem;
+}
+#footer_tuned_links li {
+  display: inline-block;
+}
+.empty_line1 {
+  margin: 0rem;
+  line-height: 0.5;
+}
+.empty_line2 {
+  margin: 0rem;
+  line-height: 1.5;
+}
+#privacy {
+  color: rgb(180, 69, 49);
+  text-decoration: none;
+}
+.para_sec_footer {
+  color: rgba(172, 172, 172, 1);
+}
