@@ -1,16 +1,13 @@
 body {
-  max-width: 775px;
-  max-height: 870px;
-  background: black;
-  margin: 0 auto;
-  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 p {
   font-size: 0.6rem;
   font-weight: 700;
   line-height: 1.5;
 }
-/*###---Header---##################################*/
 
 #header_container {
   display: flex;
@@ -21,6 +18,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
 #logo_lander {
   height: 2.8rem;
   width: 6.2rem;
@@ -81,26 +79,19 @@ p {
 }
 #title {
   color: white;
-  font-size: 2.3rem;
-  height: 1.73rem;
-  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
 }
 #sec_title {
   margin-top: 0rem;
   margin-bottom: 3.1rem;
-  font-size: 0.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: x-small;
 }
-
-/*###---Body---##################################*/
 
 #main_container {
   background: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-  padding-top: 1.55rem;
-  padding-bottom: 1.9rem;
 }
 
 #reach_team {
@@ -165,14 +156,30 @@ p {
   font-size: 0.5rem;
 }
 
-.third_title {
+.paraquestion {
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-small;
+}
+
+.paraquestion2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-small;
+}
+
+.connections_title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.minititre {
   color: rgb(85, 182, 226);
   font-weight: 900;
   margin-bottom: 0.9rem;
+  font-family: "Montserrat", sans-serif;
 }
 .social_link {
   color: rgb(218, 158, 132);
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 #conntections {
@@ -192,6 +199,7 @@ p {
 }
 .para_facebook {
   margin-top: 0rem;
+  font-family: "Montserrat", sans-serif;
 }
 #twitter {
   display: flex;
@@ -200,6 +208,7 @@ p {
 }
 .para_twitter {
   margin-top: 0rem;
+  font-family: "Montserrat", sans-serif;
 }
 #linkedin {
   display: flex;
@@ -208,9 +217,8 @@ p {
 }
 .para_linkedin {
   margin-top: 0rem;
+  font-family: "Montserrat", sans-serif;
 }
-
-/*###---Footer---##################################*/
 
 footer {
   background: rgba(64, 64, 64, 1);
@@ -224,9 +232,11 @@ footer {
 .footer_title {
   color: rgba(253, 253, 253, 1);
   margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
 }
 .footer_list {
   list-style-type: none;
+  font-family: "Montserrat", sans-serif;
 }
 .footer_hrefs {
   color: rgba(172, 172, 172, 1);
