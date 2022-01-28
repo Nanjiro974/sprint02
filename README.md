@@ -1,6 +1,9 @@
 # LIENS DU PROJET SPRINT02 QUENTIN ET THOMAS
 
-## PAGE GITHUB"<br>
+## NOTICE SPRINT02<br>
+Double cliquer sur ficher contact.html pour lancer la page
+
+## PAGE GITHUB<br>
 Lien GitHub Pages:<br>
 https://nanjiro974.github.io/sprint02/
 
